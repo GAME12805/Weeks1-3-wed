@@ -350,6 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783165174}
   - component: {fileID: 783165173}
+  - component: {fileID: 783165175}
   m_Layer: 0
   m_Name: start
   m_TagString: Untagged
@@ -427,6 +428,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &783165175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783165172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df38798fe7a1e0b4988a373ddc585369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.022312164
+      value: 0.50871277
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.36461106
+      value: 0.0995698
+      inSlope: -0.9411248
+      outSlope: -0.9411248
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19022343
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.44326827
+      value: 1.0126805
+      inSlope: 3.6390066
+      outSlope: 3.6390066
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6744071
+      value: 0.5377971
+      inSlope: 1.1120179
+      outSlope: 1.1120179
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.95944214
+      value: 0.4425087
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  t: 0
 --- !u!1 &1114258070
 GameObject:
   m_ObjectHideFlags: 0

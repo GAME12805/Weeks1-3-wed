@@ -19,6 +19,9 @@ public class SpriteChanger : MonoBehaviour
         //    //PickARandomColour();
         //}
 
+        //NOT THIS ONE!!! spriteRenderer.sprite.bounds.Contains(mousePos) this is at (0, 0)
+        //Use this one: spriteRenderer.bounds.Contains(mousePos) it's at the right position
+
         //get the mouse position
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         //is it over the sprite?
